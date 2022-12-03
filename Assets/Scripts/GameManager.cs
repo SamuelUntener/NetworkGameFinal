@@ -52,7 +52,7 @@ public void Awake() {
                 Quaternion.identity);
 
             playerSpawn.GetComponent<NetworkObject>().SpawnAsPlayerObject(pi.clientId);
-            playerSpawn.PlayerColor.Value = pi.color;
+            //playerSpawn.PlayerColor.Value = pi.color;
         }
     }
 

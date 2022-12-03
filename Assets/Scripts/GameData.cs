@@ -21,7 +21,7 @@ public class GameData : NetworkBehaviour {
         Color.cyan
     };
 
-    public NetworkList<PlayerInfo> allPlayers;
+   public NetworkList<PlayerInfo> allPlayers;
 
     // --------------------------
     // Initialization
@@ -92,14 +92,14 @@ public class GameData : NetworkBehaviour {
     public int FindPlayerIndex(ulong clientId) {
         var idx = 0;
         var found = false;
-
+    
         while (idx < allPlayers.Count && !found) {
-            if (allPlayers[idx].clientId == clientId) {
+           if (allPlayers[idx].clientId == clientId) {
                 found = true;
             } else {
                 idx += 1;
             }
-        }
+       }
 
         if (!found) {
             idx = -1;
