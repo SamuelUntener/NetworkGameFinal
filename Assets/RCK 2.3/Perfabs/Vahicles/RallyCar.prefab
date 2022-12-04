@@ -11835,7 +11835,7 @@ MonoBehaviour:
   RotAngleThreshold: 0.01
   ScaleThreshold: 0.01
   InLocalSpace: 0
-  Interpolate: 0
+  Interpolate: 1
 --- !u!1 &192032
 GameObject:
   m_ObjectHideFlags: 0

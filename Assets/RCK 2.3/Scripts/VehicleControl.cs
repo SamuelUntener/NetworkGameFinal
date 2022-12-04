@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using Unity.Netcode;
 
 public enum ControlMode { simple = 1, touch = 2 }
 
@@ -18,6 +19,7 @@ public class VehicleControl : MonoBehaviour
     // Wheels Setting /////////////////////////////////
 
     public CarWheels carWheels;
+
 
     [System.Serializable]
     public class CarWheels
