@@ -7,6 +7,7 @@ TagManager:
   - player
   - Bullet
   - DamageBoost
+  - FinishLine
   layers:
   - Default
   - TransparentFX
